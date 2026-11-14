@@ -1,9 +1,26 @@
 import { createApp } from 'vue'
-import App from './App.vue'
 import router from './router'
+import App from './App.vue'
+import './styles/tokens.css'
+import './styles/global.css'
 
-const app = createApp(App)
+createApp(App).use(router).mount('#app')
 
-app.use(router)
+// import { createApp } from 'vue'
+// import { createRouter, createWebHistory } from 'vue-router'
+// import App from './App.vue'
+// import GuidePage from './pages/GuidePage.vue'
+// import './styles/tokens.css'
+// import './styles/global.css'
 
-app.mount('#app')
+// const router = createRouter({
+//   history: createWebHistory(),
+//   routes: [
+//     { path: '/', name: 'guide', component: GuidePage }
+//   ],
+//   scrollBehavior() {
+//     return { top: 0 }
+//   }
+// })
+
+// createApp(App).use(router).mount('#app')

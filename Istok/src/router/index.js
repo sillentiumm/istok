@@ -1,8 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import GuidePage from '../pages/GuidePage.vue'
+
+const routes = [
+  {
+    path: '/',
+    name: 'guide',
+    component: GuidePage
+  }
+]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [],
+  history: createWebHistory(),
+  routes,
+  scrollBehavior() {
+    return { top: 0 }
+  }
 })
 
 export default router
