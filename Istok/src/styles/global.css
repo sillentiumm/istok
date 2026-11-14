@@ -92,7 +92,6 @@ tr:last-child td { border-bottom: 0; } th:last-child, td:last-child { border-rig
 .closing-title h2 { font: 600 clamp(34px, 5vw, 57px)/.95 'Cormorant Garamond', Georgia, serif; margin: 0; }
 .closing-title h2 {
   font-size: 36px;
-  /* font-weight: 500; */
 }
 .handwritten { margin-left: auto; font: italic 25px 'Cormorant Garamond', Georgia, serif;}
 .closing-text { max-width: 850px; margin: 22px 0 26px 125px; font: 600 clamp(16px, 2.2vw, 23px)/1.12 'Cormorant Garamond', Georgia, serif; font-size: 22px;}
