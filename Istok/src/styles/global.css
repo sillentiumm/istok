@@ -51,7 +51,7 @@ main { width: 100%; overflow: hidden; }
   width: 420px;
   margin: 0 auto;
 }
-.hero-video video {
+.hero-video iframe {
   width: 100%;
 }
 .step-content .step-extra { margin-top: 14px; }
