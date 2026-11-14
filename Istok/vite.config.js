@@ -10,8 +10,8 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/Istok',
-  // base: '/istok/',
+  // base: '/Istok',
+  base: '/istok/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
